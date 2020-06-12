@@ -85,7 +85,6 @@ Ainsi pour faire référence à une image, la syntaxe proposée est la suivante 
 
 ```
 <a name="tab_montag"> </a>
-*ma description*
 |  |   |   |   |   |
 |---|---|---|---|---|
 ```
