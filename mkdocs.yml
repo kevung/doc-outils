@@ -56,6 +56,7 @@ nav:
   - Accueil: index.md
   - Git: 
     - 'git': './git/git.md'
+    - 'git-lfs': './git/git-lfs.md'
   - Mkdocs:
     - 'installation sous Windows': './mkdocs/mkdocs-windows-installation.md'
     - '[obsolète] liens symboliques sous Windows': './mkdocs/mkdocs-liens-symboliques.md'
