@@ -57,7 +57,7 @@ Pour qu'un tableau soit reconnu, il faut que toutes les lignes aient la même ta
 ```
 
 
-## Pour créer un tag associé à un élément
+## <a name="sec_tag"> </a>  Pour créer un tag associé à un élément
 
 La syntaxe des tags est la suivante :
 
@@ -70,20 +70,26 @@ on s'y réfère ensuite par
 ```
 [texte du lien](#montag)
 ```
+Si le tag n'est pas le même fichier que le référence, il est nécessaire d'introduire le lien du fichier dans lequel se trouve le tag. 
+
+```
+[texte du lien](./chemin/vers/mon/fichier#montag)
+```
+
 Les tags peuvent se placer n'importe où dans le document. 
 Lorsque l'on s'y réfère, on crée un lien hypertexte. 
 Lors qu'on clique sur ce lien hypertexte, la page contenant le tag est affiché, avec la position de la page en haut de la page. 
 Il est donc nécessaire de mettre le tag au dessus de l'élément auquel on veut faire référence. 
-Ainsi pour faire référence à une section, la syntaxe proposée est la suivante : 
-
-```
-<a name="sec_montag"> </a>
-# Nom de ma section
-```
-
-Et pour une image, la syntaxe proposée est la suivante :
+Ainsi pour faire référence à une image, la syntaxe proposée est la suivante : 
 ```
 <a name="img_montag"> </a>
 ![texte à propos de mon image](./chemin/vers/mon/image.png)
 ```
+Pour une section par contre le tag doit être entre les # et le nom de la section.
+
+```
+
+# <a name="sec_montag"> </a> Nom de ma section
+```
+
 
