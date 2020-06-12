@@ -65,3 +65,5 @@ nav:
   - Pandoc:
     - 'installation sous Windows': './pandoc/pandoc-windows-installation.md'
     - 'lancement du script _build.sh_': './pandoc/pandoc-windows-script-build.md'
+  - Workflow:
+    - 'les images': './workflow/images.md'
