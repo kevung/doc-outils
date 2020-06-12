@@ -82,14 +82,16 @@ Lorsque l'on s'y réfère, on crée un lien hypertexte.
 Lors qu'on clique sur ce lien hypertexte, la page contenant le tag est affiché, avec la position de la page en haut de la page. 
 Il est donc nécessaire de mettre le tag au dessus de l'élément auquel on veut faire référence. 
 Ainsi pour faire référence à une image, la syntaxe proposée est la suivante : 
+
 ```
-<a name="img_montag"> </a>
-![texte à propos de mon image](./chemin/vers/mon/image.png)
+<a name="tab_montag"> </a>
+*ma description*
+|  |   |   |   |   |
+|---|---|---|---|---|
 ```
 Pour une section par contre le tag doit être entre les # et le nom de la section.
 
 ```
-
 # <a name="sec_montag"> </a> Nom de ma section
 ```
 
