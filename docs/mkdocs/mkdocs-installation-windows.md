@@ -1,23 +1,19 @@
----
-author: Kevin
----
-
-# Guide pour version Mkdocs de l'API fonctionnelle
+# Guide d'installation de Mkdocs pour Windows
 
 Teste sur Windows 8.1 Pro
 
 ## Mise en place (a faire que la premiere fois)
 
-- Installer Python: (si non deja present. J'ai teste avec v3.8.2 mais doit fonctionner avec v2....)
-  - https://www.python.org/downloads/windows/
-  - python-3.8.2-amd64.exe
-  - cocher Add Python 3.8 to PATH
-  - Install Now
+1. Installer Python: (si non deja present. J'ai teste avec v3.8.2 mais doit fonctionner avec v2....)
+    - https://www.python.org/downloads/windows/
+    - python-3.8.2-amd64.exe
+    - cocher Add Python 3.8 to PATH
+    - Install Now
 
-- Installer Mkdocs:
-  - Windows-R > "powershell"
-  - `pip install mkdocs`
-  - `mkdocs --version`
+2. Installer Mkdocs:
+    - Windows-R > "powershell"
+    - `pip install mkdocs`
+    - `mkdocs --version`
 
 Dans la suite, on suppose que le depot Git de la documentation API fonctionnelle se trouve au chemin suivant (adapter sinon):
 C:\Users\test0\Documents\fonctionnel
@@ -33,9 +29,6 @@ Avec un technicien de la DSI :
   - Commande 2 (pour un dossier)
  mklink /D C:\Users\test0\Documents\fonctionnel-web\docs C:\Users\test0\Documents\fonctionnel`
   
-
-Les étapes d'installation sont terminees.
-
 ## Installation de plugins Mkdocs
 
 Des plugins supplémentaires peuvent être utilisés avec Mkdocs. Notamment

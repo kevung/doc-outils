@@ -54,3 +54,8 @@ plugins:
 use_directory_urls: false
 nav:
   - Accueil: index.md
+  - Git: 
+    - 'git': './git/git.md'
+  - Mkdocs:
+    - 'installation sous Windows': './mkdocs/mkdocs-installation-windows.md'
+    - '[obsolète] liens symboliques sous Windows': './mkdocs/mkdocs-liens-symboliques.md'

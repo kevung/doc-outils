@@ -1,8 +1,4 @@
----
-author: Kevin
----
-
-# Petit topo sur Git
+# Git
 
 Ces commandes se lancent dans le dossier du dépot Git dans :
 
