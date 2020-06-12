@@ -59,3 +59,5 @@ nav:
   - Mkdocs:
     - 'installation sous Windows': './mkdocs/mkdocs-installation-windows.md'
     - '[obsolète] liens symboliques sous Windows': './mkdocs/mkdocs-liens-symboliques.md'
+  - Markdown:
+    - 'syntaxe': './markdown/markdown-syntaxe.md'
